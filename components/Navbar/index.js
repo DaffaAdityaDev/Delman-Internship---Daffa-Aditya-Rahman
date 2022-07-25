@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box, Text, Center, Divider, Breadcrumb, BreadcrumbItem, BreadcrumbLink, HStack } from '@chakra-ui/react'
+import Link from 'next/link'
 function Navbar({ url }) {
   return (
 
@@ -12,12 +13,14 @@ function Navbar({ url }) {
         </Center> 
         <Breadcrumb >
             <BreadcrumbItem>
-                <BreadcrumbLink href='#'>Internship Program</BreadcrumbLink>
+                <Link href="/">
+                    <BreadcrumbLink href='#'>Internship Program</BreadcrumbLink>
+                </Link>
             </BreadcrumbItem>
             
             { url ? 
             <BreadcrumbItem >
-                <BreadcrumbLink href='#' pointerEvents="none">{url}</BreadcrumbLink>
+                <BreadcrumbLink pointerEvents="none">{url}</BreadcrumbLink>
             </BreadcrumbItem>
             : null }
         </Breadcrumb>
