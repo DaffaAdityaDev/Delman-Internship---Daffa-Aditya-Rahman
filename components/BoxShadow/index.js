@@ -1,7 +1,7 @@
 import React from 'react'
+import Link from 'next/link'
 import { Stack, HStack, Text, Box, Button, Heading} from '@chakra-ui/react'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
-import Link from 'next/link'
 function BoxShadow({ title, desc, url }) {
   return (
     <Box w="270px" h="150px" borderWidth="1px" boxShadow="md" p="5">

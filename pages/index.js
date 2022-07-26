@@ -19,7 +19,7 @@ export default function Home() {
             <Divider mt="8" color="rgba(0,0,0,0.1)"/>
             <HStack mt="8">
               <BoxShadow title="Title Transformer" desc="A Simple title transformation panel" url="/title_transformer"/>
-              <BoxShadow title="User Fetcher" desc="A simple API fetching and rendering process" url="/url2"/>
+              <BoxShadow title="User Fetcher" desc="A simple API fetching and rendering process" url="/fetching"/>
             </HStack>
           </Box>
         </VStack>

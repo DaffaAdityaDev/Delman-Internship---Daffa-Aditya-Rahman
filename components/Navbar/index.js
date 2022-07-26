@@ -1,6 +1,6 @@
 import React from 'react'
-import { Box, Text, Center, Divider, Breadcrumb, BreadcrumbItem, BreadcrumbLink, HStack } from '@chakra-ui/react'
 import Link from 'next/link'
+import { Box, Text, Center, Divider, Breadcrumb, BreadcrumbItem, BreadcrumbLink, HStack } from '@chakra-ui/react'
 function Navbar({ url }) {
   return (
 

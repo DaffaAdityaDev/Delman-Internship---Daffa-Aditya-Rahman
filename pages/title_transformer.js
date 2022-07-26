@@ -4,7 +4,7 @@ import { Box, Flex, VStack, HStack, Heading, Divider, Text, Button} from '@chakr
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 
-function title_transformer() {
+function Title_transformer() {
     //initialize state
     const [title, setTitle] = useState([{title: 1, color: "#000000"},]);
     const [random, setRandom] = useState(false);
@@ -139,4 +139,4 @@ function title_transformer() {
     )
 }
 
-export default title_transformer
+export default Title_transformer
